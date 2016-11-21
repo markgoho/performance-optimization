@@ -7,7 +7,8 @@ var gulp        = require('gulp'),
 	sass        = require('gulp-sass'),
     maps        = require('gulp-sourcemaps'),
     autoprefix	= require('gulp-autoprefixer'),
-    del 		= require('del');
+    del 		= require('del'),
+    csso		= require('gulp-csso');
 
 gulp.task("concatScripts", function() {
 	return gulp.src([
@@ -27,6 +28,13 @@ gulp.task("minifyScripts", function() {
 			   .pipe(uglify())
 		       .pipe(rename('app.min.js'))
 		       .pipe(gulp.dest('js'));
+});
+
+gulp.task('minifyCSS', function() {
+	return gulp.src('css/styles.css')
+			   .pipe(csso())
+			   .pipe(rename('styles.min.css'))
+			   .pipe(gulp.dest('css'));
 });
 
 gulp.task("deploy", ['concatScripts', 'minifyScripts', 'compileSass'], function() {
