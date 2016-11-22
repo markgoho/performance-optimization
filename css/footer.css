@@ -11,8 +11,9 @@ footer .social {
     text-align: right;
 }
 footer .social-icon {
-    height: 35px;
-    width: 35px;
+    padding-left: 1em;
+    height: 4em;
+    width: 4em;
 }
 footer p {
     color: rgb(125, 136, 146);
