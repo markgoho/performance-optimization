@@ -41,6 +41,10 @@ gulp.task("concatCSS", function() {
 		   .pipe(gulp.dest('css'));
 });
 
+gulp.task("watchCSS", function() {
+	gulp.watch("css/*.css", ["concatCSS", "minifyCSS"]);
+});
+
 gulp.task("minifyScripts", function() {
 	return gulp.src("js/app.js")
 			   .pipe(uglify())

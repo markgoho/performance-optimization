@@ -7070,7 +7070,6 @@ body {
 }
 .menu .logo {
     /*background: url('../img/logo.svg') no-repeat top left;*/
-    /*background-size: contain;*/
     position: relative;
     font-family: "Arvo", serif;
     font-size: 2rem;
@@ -7079,7 +7078,6 @@ body {
     margin: 0 0 1rem 0;
     color: rgb(72, 84, 97);
     text-indent: -9999999rem;
-    /*overflow: hidden;*/
     width: 40rem;
     height: 3rem;
 }
