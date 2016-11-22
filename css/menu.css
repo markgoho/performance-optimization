@@ -59,8 +59,9 @@
     color: #fff;
 }
 .menu .logo {
-    background: url('../img/logo.png') no-repeat top left;
-    background-size: contain;
+    /*background: url('../img/logo.svg') no-repeat top left;*/
+    /*background-size: contain;*/
+    position: relative;
     font-family: "Arvo", serif;
     font-size: 2rem;
     font-weight: bold;
@@ -68,10 +69,19 @@
     margin: 0 0 1rem 0;
     color: rgb(72, 84, 97);
     text-indent: -9999999rem;
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 40rem;
     height: 3rem;
 }
+
+.site-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 61px; /*Magic number, blah*/
+    width: 100%;
+}
+
 .menu .logo b {
     color: rgb(47, 171, 206);
     font-family: "Ubuntu";
