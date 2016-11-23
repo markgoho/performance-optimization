@@ -7178,6 +7178,33 @@ body {
     margin-right: 1rem;
     width: 50px;
 }
+
+.image-grid .image .info .avatar1,
+.hero .info .avatar1  {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat 0 0;
+}
+
+.image-grid .image .info .avatar2 {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat -50px 0;
+}
+
+.image-grid .image .info .avatar3 {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat -100px 0;
+}
+
+.image-grid .image .info .avatar5 {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat 0 -50px;
+}
+
+.image-grid .image .info .avatar6 {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat -50px -50px;
+}
+
+.image-grid .image .info .avatar7 {
+    background: url('../img/avatars/avatar-sprite.jpg') no-repeat -100px -50px;
+}
+
+
 .reveal-modal .info {
     padding: 2rem 1rem 0;
 }
@@ -7195,8 +7222,40 @@ body {
     height: 75px;
     margin-right: 1rem;
     width: 75px;
+    background-repeat: no-repeat;
+    background-size: 225px;
+
 }
 
+.reveal-modal .info .avatar1 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: 0 0;
+}
+
+.reveal-modal .info .avatar2 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -75px 0;
+}
+
+.reveal-modal .info .avatar3 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -150px 0;
+}
+
+.reveal-modal .info .avatar5 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: 0 -75px;
+}
+
+.reveal-modal .info .avatar6 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -75px -75px;
+}
+
+.reveal-modal .info .avatar7 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -150px -75px;
+}
 footer {
     padding: 1.5rem 3rem;
 }

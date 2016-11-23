@@ -15,4 +15,37 @@
     height: 75px;
     margin-right: 1rem;
     width: 75px;
+    background-repeat: no-repeat;
+    background-size: 225px;
+
+}
+
+.reveal-modal .info .avatar1 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: 0 0;
+}
+
+.reveal-modal .info .avatar2 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -75px 0;
+}
+
+.reveal-modal .info .avatar3 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -150px 0;
+}
+
+.reveal-modal .info .avatar5 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: 0 -75px;
+}
+
+.reveal-modal .info .avatar6 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -75px -75px;
+}
+
+.reveal-modal .info .avatar7 {
+    background-image: url('../img/avatars/avatar-sprite.jpg');
+    background-position: -150px -75px;
 }
